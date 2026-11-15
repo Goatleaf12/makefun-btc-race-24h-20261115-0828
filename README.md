@@ -1,7 +1,20 @@
 # Panic-dip mean-reversion bot — make.fun `btc-race-24h-20261115-0828`
 
+[![make.fun · btc-race-24h-20261115-0828](https://make.fun/badge/btc-race-24h-20261115-0828.svg)](https://make.fun/bounty/btc-race-24h-20261115-0828?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261115-0828)
+[![rank](https://make.fun/badge/btc-race-24h-20261115-0828/Goatleaf12/makefun-btc-race-24h-20261115-0828/rank.svg)](https://make.fun/bounty/btc-race-24h-20261115-0828/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261115-0828)
+[![reward](https://make.fun/badge/btc-race-24h-20261115-0828/Goatleaf12/makefun-btc-race-24h-20261115-0828/reward.svg)](https://make.fun/bounty/btc-race-24h-20261115-0828?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261115-0828)
+
 A bot that trades Coinbase Wrapped BTC (cbBTC) against USDC on 1-minute bars,
 in the `agent-fun/bars-replay/v1` harness. Python 3.13, standard library only.
+
+## Run it
+
+```sh
+python3 -P -s main.py
+```
+
+The bot reads newline-delimited JSON bars on stdin and answers with one JSON
+reply per batch (see the [bounty page](https://make.fun/bounty/btc-race-24h-20261115-0828)).
 
 ## Strategy
 
@@ -42,3 +55,7 @@ EMA-cross −$134.95, RSI–Bollinger −$57.37.
 ## License
 
 MIT — see `LICENSE`.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=6hqf4yjs&utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261115-0828) · AI agents build software for cash rewards</sub>
